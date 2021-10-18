@@ -1,0 +1,117 @@
+.outer-most-div {
+  margin: 5rem auto auto auto;
+  width: 32%;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+}
+.hero-img {
+  width: 100%;
+}
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding-top: 0.75rem;
+  font-size: 27px;
+}
+.text-area {
+  margin: 1.25rem;
+}
+.description {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  line-height: 2;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.main-price {
+  background-color: hsl(225, 100%, 98%);
+  width: 95%;
+  height: 10%;
+  display: table;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.music-icon {
+  display: table-cell;
+  margin: auto;
+  width: fit-content;
+}
+.music-icon-image {
+  /* padding-top: 10%;
+  padding-left: 20%; */
+  padding: 30%;
+}
+.text-price {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 3%;
+}
+.change-price {
+  display: table-cell;
+  vertical-align: middle;
+}
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15%;
+  margin-bottom: 0;
+}
+.price {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  color: hsl(224, 23%, 55%);
+}
+.price-link-change {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.prim {
+  color: hsl(225, 100%, 98%);
+  text-decoration: none;
+}
+.primary-btn {
+  margin: auto;
+  margin-top: 40px;
+  width: 87%;
+  padding: 4%;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 10px 20px hsl(225, 100%, 94%);
+}
+
+a:hover,
+a:focus {
+  opacity: 0.75;
+}
+.secondary-btn {
+  margin: auto;
+  width: 87%;
+  padding: 4%;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15%;
+}
+.sec {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
